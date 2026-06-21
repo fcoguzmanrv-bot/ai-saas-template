@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 // Creates a Stripe Checkout session and returns the URL
 import { auth } from "@/lib/auth";
 import { stripe, getOrCreateStripeCustomer } from "@/lib/stripe";

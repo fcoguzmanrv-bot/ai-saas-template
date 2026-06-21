@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 // Opens Stripe Customer Portal for subscription management
 import { auth } from "@/lib/auth";
 import { stripe } from "@/lib/stripe";

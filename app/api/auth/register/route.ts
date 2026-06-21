@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 // User registration endpoint
 import { db } from "@/lib/db";
 import { z } from "zod";

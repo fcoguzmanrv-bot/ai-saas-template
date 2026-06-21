@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 // AI chat endpoint — streams responses from Claude, enforces plan limits
 import { auth } from "@/lib/auth";
 import { anthropic, AI_MODEL, SYSTEM_PROMPT } from "@/lib/ai";

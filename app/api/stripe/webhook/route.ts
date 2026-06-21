@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 // Stripe webhook handler — syncs subscription status to database
 import { stripe } from "@/lib/stripe";
 import { db } from "@/lib/db";
